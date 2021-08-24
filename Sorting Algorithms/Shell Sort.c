@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void shellsort(int arr[], int num)
 {
     int i, j, k, tmp;
@@ -20,6 +21,7 @@ void shellsort(int arr[], int num)
         }
     }
 }
+
 int main()
 {
     int arr[30];
